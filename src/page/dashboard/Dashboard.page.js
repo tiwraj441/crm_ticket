@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {TicketTable} from "../../components/ticket-table/TicketTable.comp";
+import tickets from '../../assets/data/dummy-tickets.json'
+
 
 export const Dashboard = () => {
     return (
@@ -21,11 +24,14 @@ export const Dashboard = () => {
             <Row>
             <Col className="text-center  mb-2">
                   Recently Added tickets
-
-
-            </Col>
+             </Col>
             </Row>
             <hr/>
+            <Row>
+            <Col className="text-center  mb-2">
+                  <TicketTable tickets={tickets}/>
+             </Col>
+            </Row>
 
 
             
