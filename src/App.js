@@ -2,7 +2,8 @@ import React from "react";
 
 import './App.css';
 import { DefaultLayout } from "./layout/DefaultLayout";
-import { Dashboard } from "./page/dashboard/Dashboard.page";
+//import { Dashboard } from "./page/dashboard/Dashboard.page";
+import { AddTicket } from "./page/new_ticket/AddTicket.page";
 
 function App() {
   return (
@@ -11,9 +12,9 @@ function App() {
      <DefaultLayout>
 
 
-      <Dashboard/>
+      {/* <Dashboard/> */}
           
-        
+        <AddTicket />
 
 
      </DefaultLayout>
