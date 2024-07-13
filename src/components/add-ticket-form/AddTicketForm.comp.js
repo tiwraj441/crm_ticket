@@ -52,7 +52,7 @@ export const AddTicketForm =({handleOnSubmit,handleOnChange}) =>{
                   <br/>
                 
 
-                  <Button type="submit" class="btn btn-primary w-100" variant="info" >Login</Button>
+                  <Button type="submit"  variant="info"  className="w-100">Login</Button>
                     
                 </Form>
         </div>
